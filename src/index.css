@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+body {
+  background-color: #f3eee8;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+*,
+*::before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rotate {
+  transform: translateZ(0) rotate(-180deg) scale(1);
+}
+
+.image {
+  transition: transform 0.4s ease;
+}
+
+.circle {
+  transform: rotate(90deg);
+}
