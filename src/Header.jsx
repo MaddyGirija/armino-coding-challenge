@@ -36,7 +36,6 @@ const Header = () => {
                 data-v-71a315af=""
                 className="align-middle overflow-hidden transition-all md:w-[8rem] w-[5rem] md:h-[5rem] h-[3rem]"
               >
-                <title data-v-71a315af="">Group</title>
                 <defs data-v-71a315af="">
                   <polygon
                     id="path-1"
